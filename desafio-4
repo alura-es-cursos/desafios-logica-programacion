@@ -98,4 +98,22 @@ Comprender estos conceptos no solo facilita el aprendizaje de nuevos lenguajes y
     ```
 
 11. **Número aleatorio con Math.random**
-... (20 linhas)
+
+    ```
+    javascriptCopy codelet numeroAleatorio = Math.random();
+    console.log(numeroAleatorio);
+    ```
+
+12. **Número entero aleatorio entre 1 y 10 con Math.random**
+
+    ```
+    javascriptCopy codelet numeroIntAleatorio = parseInt(Math.random() * 10) + 1;
+    console.log(numeroIntAleatorio);
+    ```
+
+13. **Número entero aleatorio entre 1 y 1000 con Math.random**
+
+    ```
+    javascriptCopy codelet numeroIntAleatorio = parseInt(Math.random() * 1000) + 1;
+    console.log(numeroIntAleatorio);
+    ```
